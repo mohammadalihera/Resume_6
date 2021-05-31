@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #098cc0, #024c6e);
+}
+
+
+.resume{
+	width: 10in;
+	height: 14in;
+	background: rgb(255, 255, 255);
+	margin-left:auto;
+	margin-right: auto;
+	display: flex;
+	-webkit-box-shadow: 0 0 50px rgb(2, 104, 129);
+        box-shadow: 50 50 50px rgb(253, 253, 253);
+}
+.left_right{
+	width: 10in;
+	height: 14in;
+	background: #fff;
+	margin-left:auto;
+	margin-right: auto;
+	z-index: 1;
+	display: flex;
+	position:absolute;
+
+}
+.name_posistion{
+	
+	z-index:2 ;
+	position:absolute;
+	margin-top: 70px;
+	margin-left: 90px;
+	display: flex;
+}
+.n_p{
+	height: 70px;
+	width: 300px;
+	border-radius: 50px;
+	background-color: rgb(0, 0, 0);
+}
+.name{
+	font-size: 30px;
+	color:white;
+	margin-left: 30px;
+	margin-top: 4px;
+
+}
+.position{
+	color:white;
+	margin-left:30px;
+	font-size: 15px;
+}
+.image{
+	height: 170px;
+	width:170px;
+	border-radius: 50%;
+	background-color: rgb(4, 204, 194);
+	margin-top: -50px;
+	margin-right: 160px;
+}
+.pic{
+	height: 150px;
+	width:150px;
+	border-radius: 50%;
+	margin-left:10px;
+	margin-top: 10px;
+	
+}
+.left{
+	background: #fdfdfdf5;
+	width: 3in;
+	align-items: center;
+	height: 14in;
+	
+}
+.sec_tile{
+	display: flex;
+
+}
+.education_sec{
+	margin-top: 180px;
+}
+.education_line{
+	margin-top: 195px;
+}
+.skill_sec{
+	margin-top: 15px;
+}
+.skill_line{
+  margin-top:30px ;
+}
+.hobby_sec{
+	width:100px;
+	height: 30px;
+	color:rgb(255, 255, 255);
+	border:solid 2px rgb(255, 255, 255);
+	margin-top: 160px;
+	margin-left: 25px;
+
+}
+.hobby_line{
+	width: 164px;
+	height: 1px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 175px;
+}
+.hobby_title{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+	font-weight: bold;
+
+}
+.hobbies{
+	margin-top:10px;
+	margin-left:25px;
+}
+.hobby_row{
+	display: flex;
+	height: 25px;
+	width: 180px;
+	background-color: rgb(2, 51, 51);
+	align-items: center;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	
+}
+.hobby_icon{
+	color:white;
+	margin-left: auto;
+	
+}
+.hobby_name{
+	font-size: 14px;
+	color:white;
+	margin-left: 10px;
+	margin-right: auto;
+}
+.title_border{
+	width:100px;
+	height: 30px;
+	color:black;
+	border:solid 2px black;
+	
+	margin-left: 25px;
+
+}
+.title_text{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+	font-weight: bold;
+
+}
+.c_l{
+	width: 164px;
+	height: 1px;
+	background-color: black;
+    
+}
+hr{
+	color:black;
+}
+.l_first_section{
+	height:10.25in ;
+	width: 3in;
+	background-color: white;
+}
+.education{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.degree_year_clg_cg{
+	margin-bottom: 20px;
+	background-color: rgb(9, 224, 231);
+	align-items: center;
+	padding-left: 20px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}  
+.year{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.degree{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.clg{
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.cg{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.skill{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.skill_row{
+	display: flex;
+	background-color: rgb(9, 224, 231);
+	height: 30px;
+	align-items: center;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 10px;
+}
+.s_name{
+	font-size: 14px;
+	color:rgb(0, 0, 0);
+	margin-right: 10px;
+	width:110px;
+	font-weight: bold;
+}
+.l_5{
+	display: flex;
+}
+.languages{
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.language_row{
+	display: flex;
+	background-color: rgb(9, 224, 231);
+	height: 30px;
+	align-items: center;
+	padding-left: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-bottom: 10px;
+}
+.yes{
+	height: 15px;
+	width:15px;
+	/* border-radius: 50%; */
+	background-color:rgb(7, 7, 6);
+
+	margin-left: 6px;
+}
+.no{
+	height: 15px;
+	width:15px;
+	/* border-radius: 50%; */
+	background-color:rgb(237, 240, 234);
+
+	margin-left: 6px;
+}
+.l_second_section{
+	height:4.25in ;
+	width: 3in;
+	background-color: rgb(0, 0, 0);
+	clip-path: polygon(100% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 38%);
+}
+.right{
+	width: 7in;
+	background-color: rgb(255, 255, 255);
+}
+.r_first_section{
+	height:13in ;
+	width: 7in;
+	background-color: rgb(0, 0, 0);
+	clip-path: polygon(0 0, 100% 25%, 100% 60%, 100% 100%, 100% 100%, 0 79%, 0 0);
+	color: rgb(243, 243, 243);
+}
+.about_sec{
+	height: 30px;
+	color:rgb(255, 255, 255);
+	border:solid 2px rgb(255, 255, 255);
+	margin-top: 230px;
+	margin-left: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.about_line{
+	width: 354px;
+	height: 1px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 245px;
+}
+.about_title{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+	font-weight: bold;
+
+}
+.about{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left:25px;
+	margin-right: 85px;
+}
+.about_text{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: justify;
+}
+.Experiences{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	margin-left:25px;
+	margin-right: 85px;
+}
+
+.exp_sec{
+	height: 30px;
+	color:rgb(255, 255, 255);
+	border:solid 2px rgb(255, 255, 255);
+	margin-top: 20px;
+	margin-left: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.exp_line{
+	width: 354px;
+	height: 1px;
+	background-color: rgb(255, 255, 255);
+	margin-top: 35px;
+}
+.exp_title{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+	font-weight: bold;
+
+}
+
+.company_dueration{
+	display: flex;
+	margin-bottom: 10px;
+}
+.company{
+	font-size: 16;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-right:15px;
+}
+.dueration{
+	font-size: 16;
+	font-weight: bold;
+	letter-spacing: 2px;
+	
+}
+.exp_text{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: justify;
+}
+.achivement{
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.achivements{
+	display: flex;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.ac_star{
+	height:25px;
+	width: 15px;
+	background-color: teal;
+	margin-right: 10px;
+	margin-top:3px;
+	clip-path: polygon(100% 0, 100% 100%, 48% 61%, 0 100%, 0 50%, 0 0);
+}
+.ac_name a{
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+	margin-right:5px;
+}
+.ac_name a:hover{
+	text-decoration: underline;
+}
+.r_second_section{
+	width: 7in;
+	height: 2.5in;
+	background-color: rgb(235, 135, 135);
+	
+}
+.ref_sec{
+	height: 30px;
+	color:rgb(0, 0, 0);
+	border:solid 2px rgb(0, 0, 0);
+	margin-top: -100px;
+	margin-left: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.ref_line{
+	width: 356px;
+	height: 1px;
+	background-color: rgb(0, 0, 0);
+	margin-top: -85px;
+}
+.ref_title{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 4px;
+	font-weight: bold;
+
+}
+.referrenc{
+	margin-top: -20px;
+	margin-left: 25px;
+	display: flex;
+}
+.referrences{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	background-color: rgb(0, 255, 255);
+	padding: 10px;
+	border-radius: 5px;
+}
+.re_name{
+	color:teal;
+	margin-bottom: 4px;
+}
+.re_deg{
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.re_mail a{
+	text-decoration: none;
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+}
+.re_mail a:hover{
+	text-decoration: underline;
+}
+.contact_name_icon{
+	margin-top: -40px;
+}
+.c_n_i{
+	display: flex;
+	margin-bottom: 10px;
+}
+.c_tp{
+	margin-left: 10px;
+	color:black;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+ a{
+	text-decoration: none;
+	color:rgb(2, 2, 2);
+}
+a:hover{
+	text-decoration: underline;
+}
+.r_second_section{
+	height:1.5in ;
+	width: 7in;
+	background-color: rgb(255, 255, 255);
+}
+
+
+
+
