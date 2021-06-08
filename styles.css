@@ -136,11 +136,15 @@ body{
 	
 }
 .hobby_icon{
+	width: 20px;
 	color:white;
-	margin-left: auto;
+	margin-left:40px;
+	margin-right: 20px;
+
 	
 }
 .hobby_name{
+	width: 40px;
 	font-size: 14px;
 	color:white;
 	margin-left: 10px;
@@ -334,10 +338,13 @@ hr{
 
 }
 .exp_line{
-	width: 354px;
+	width: 334px;
 	height: 1px;
 	background-color: rgb(255, 255, 255);
 	margin-top: 35px;
+}
+.only-exp{
+	width: 290px;
 }
 .exp_title{
 	font-size: 16px;
